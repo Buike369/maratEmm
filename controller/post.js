@@ -5,7 +5,7 @@ var validator = require("email-validator");
 
 const formSubmit = async (req, res) => {
 
-    console.log(req.body)
+    // console.log(req.body)
     try {
 
         const { firstName, lastName, email,message} = req.body;
